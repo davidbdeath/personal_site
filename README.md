@@ -1,0 +1,3 @@
+# Personal Portfolio Site
+
+These are my web portfolio site files. I do a lot of experimentation, trying different approaches with this site. Currently, I'm using **HTML**, **SASS**, and **Javascript**, and content is populated using JS and a **JS object**. My next iteration will use **PHP**, so I can have partials without using a VPS. Nearly all basic hosting has **PHP** support. After that, I will move the data in my JS object to a **MySQL** database.
