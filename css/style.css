@@ -109,7 +109,7 @@ svg {
 }
 
 body {
-	background-color: #304050;
+	background-color: #2D4263;
 }
 
 @media (max-width: 48em) {
@@ -202,7 +202,7 @@ body {
 }
 
 .btn {
-	border: solid 1px #304050;
+	border: solid 1px #2D4263;
 	border-radius: 0.5em;
 	background: black;
 	color: #fff;
@@ -224,7 +224,7 @@ button:hover,
 }
 
 .btn-group {
-	border: solid 1px #304050;
+	border: solid 1px #2D4263;
 	border-radius: 0.5em;
 	background-color: black;
 	width: -webkit-fit-content;
@@ -251,7 +251,7 @@ button:hover,
 	margin-bottom: 0.2em;
 }
 .btn-group a:not(:last-child) {
-	border-right: solid 1px #304050;
+	border-right: solid 1px #2D4263;
 }
 
 a {
@@ -390,7 +390,7 @@ main .block {
 		overflow: scroll;
 		-webkit-transform: translate(-50%, -50%);
 		        transform: translate(-50%, -50%);
-		border: 1px solid #304050;
+		border: 1px solid #2D4263;
 		background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(0, 0, 0, 0.9)), to(black));
 		background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.9), black);
 	}
@@ -492,7 +492,7 @@ main .block {
 	margin-bottom: 1em;
 }
 .contact-form .btn {
-	background: #182028;
+	background: #172132;
 	border: solid 1px rgba(255, 255, 255, 0.2);
 }
 @media (min-width: 48em) {
