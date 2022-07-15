@@ -1,0 +1,13 @@
+@use '../abstracts' as *;
+
+main {
+	display: flex;
+	flex: 0 1 100%;
+	width: $block-width;
+	margin-inline: auto;
+	gap: 1rem;
+
+	.block {
+		margin-top: 0;
+	}
+}

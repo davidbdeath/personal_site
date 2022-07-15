@@ -274,6 +274,21 @@ a > *:hover {
 	border-radius: 6px;
 }
 
+main {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-flex: 0;
+	    -ms-flex: 0 1 100%;
+	        flex: 0 1 100%;
+	width: 96vw;
+	margin-inline: auto;
+	gap: 1rem;
+}
+main .block {
+	margin-top: 0;
+}
+
 .nav-primary {
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -359,21 +374,6 @@ a > *:hover {
 	.project-grid {
 		grid-template-columns: repeat(auto-fill, 14%);
 	}
-}
-
-main {
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-flex: 0;
-	    -ms-flex: 0 1 100%;
-	        flex: 0 1 100%;
-	width: 96vw;
-	margin-inline: auto;
-	gap: 1rem;
-}
-main .block {
-	margin-top: 0;
 }
 
 #container--project-details {
