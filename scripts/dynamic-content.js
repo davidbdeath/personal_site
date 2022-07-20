@@ -55,15 +55,13 @@ const portfolioData = [
 		lang_lib: ['html', 'css', 'javascript', 'php'],
 	},
 	{
-		title: 'Score Keeper',
-		description:
-			"Web App for keeping score of a ping pong game. The goal was to keep track of the score for the current game and a set of games. I also wanted the winner list to persist between site loads. The winner list is stored as a JSON array in the browser's local storage.",
-		date: 'December 2021',
-		siteUrl: 'https://davidbdyer.github.io/ping-pong_score_keeper/',
-		gitUrl: 'https://github.com/davidbdyer/ping-pong_score_keeper',
-		imgUrl: 'images/site-thumbs/ping-pong-score-keeper.jpg',
-		imgAlt: 'ping pong score keeper',
-		aria: 'score-keeper--tab',
+		title: 'Movie App',
+		description: `A simple movie lookup web app. I'm using the Javascript fetch API to get popular movies from themoviedb and display them. Search is also implemented. The web app is fully responsive and has Facebook metadata, an iOS theme, and an iOS icon. Based on a project from the "50 Projects In 50 Days" Udemy course. Instead of using display flex, I'm using display grid. I prefer grid to flex because the last row stays consistent with the rest of the rows.`,
+		date: 'March 2022',
+		siteUrl: 'https://www.daviddyer.me/portfolio-sites/fifty-projects/movie-app/',
+		imgUrl: 'images/site-thumbs/movie-app.jpg',
+		imgAlt: 'Movie App',
+		aria: 'movie-app--tab',
 		lang_lib: ['html', 'sass', 'javascript'],
 	},
 	{
@@ -90,16 +88,6 @@ const portfolioData = [
 		lang_lib: ['html', 'css', 'javascript'],
 	},
 	{
-		title: 'Movie App',
-		description: `A simple movie lookup web app. I'm using the Javascript fetch API to get popular movies from themoviedb and display them. Search is also implemented. The web app is fully responsive and has Facebook metadata, an iOS theme, and an iOS icon. Based on a project from the "50 Projects In 50 Days" Udemy course. Instead of using display flex, I'm using display grid. I prefer grid to flex because the last row stays consistent with the rest of the rows.`,
-		date: 'March 2022',
-		siteUrl: 'https://www.daviddyer.me/portfolio-sites/fifty-projects/movie-app/',
-		imgUrl: 'images/site-thumbs/movie-app.jpg',
-		imgAlt: 'Movie App',
-		aria: 'movie-app--tab',
-		lang_lib: ['html', 'sass', 'javascript'],
-	},
-	{
 		title: 'Dad Jokes',
 		description: `I'm using the Javascript Fetch API to get dad jokes from icanhazdadjoke. The web app is fully responsive, has Facebook metadata, iOS theme, and iOS icon. If the returned text exceeds the available space, the text size automatically reduces. Based on a project from the "50 Projects In 50 Days" Udemy course.`,
 		date: 'February 2022',
@@ -120,6 +108,18 @@ const portfolioData = [
 		gitUrl: 'https://github.com/davidbdyer/github-profile-search',
 		aria: 'github-profile-search--tab',
 		lang_lib: ['html', 'css', 'javascript', 'Axios'],
+	},
+	{
+		title: 'Score Keeper',
+		description:
+			"Web App for keeping score of a ping pong game. The goal was to keep track of the score for the current game and a set of games. I also wanted the winner list to persist between site loads. The winner list is stored as a JSON array in the browser's local storage.",
+		date: 'December 2021',
+		siteUrl: 'https://davidbdyer.github.io/ping-pong_score_keeper/',
+		gitUrl: 'https://github.com/davidbdyer/ping-pong_score_keeper',
+		imgUrl: 'images/site-thumbs/ping-pong-score-keeper.jpg',
+		imgAlt: 'ping pong score keeper',
+		aria: 'score-keeper--tab',
+		lang_lib: ['html', 'sass', 'javascript'],
 	},
 	{
 		title: 'Museum of Candy',
